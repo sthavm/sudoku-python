@@ -146,9 +146,3 @@ board2.print()
 || x | x | x || x | x | x ||
 ||========================||
 """
-
-#Forward Checking:
-#1.Create dictionary for each empty cell coordinate with value equal to possible domain
-#2.Assign value to a chosen cell from its domain.
-#3.Update the domains of all other cells
-#4.If there is a cell with an empty domain, reset the most recently assigned cell
